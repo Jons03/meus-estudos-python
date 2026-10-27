@@ -3,9 +3,12 @@ print ('Olá, prazer em conhecer', nome)
 
 idade = int(input('Quantos anos você tem?'))
 if idade > 18:
-  print ('Você é de maior')
+  print ('Você é maior de idade')
 elif idade == 18:
-  print ('Pessoa com exatamente 18 anos')
+  print ('Você tem exatamente 18 anos')
 else:
-  print ('Você é de menor')
+  print ('Você é menor de idade.')
+
+cidade = input('Digite sua cidade: ')
+print ('Você mora em', cidade)
 
